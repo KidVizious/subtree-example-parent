@@ -30,8 +30,8 @@
 
 int main(int argc, char** argv)
 {
-    int firstNumber = 5;
-    int secondNumber = 10;
+    int firstNumber = 10;
+    int secondNumber = 5;
 
     printf("First number plus second number equals %d\n", firstNumber + secondNumber);
 }
