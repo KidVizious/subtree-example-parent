@@ -31,3 +31,8 @@ int Math_Add(int first, int second)
 {
     return first + second;
 }
+
+int Math_Subtract(int first, int second)
+{
+    return first - second;
+}

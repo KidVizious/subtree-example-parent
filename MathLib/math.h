@@ -26,5 +26,6 @@
 // Public function prototypes
 //==============================================================================
 int Math_Add(int first, int second);
+int Math_Subtract(int first, int second);
 
 #endif // MATH_H
