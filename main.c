@@ -3,6 +3,7 @@
 //==============================================================================
 #include <stdint.h>
 #include <stdio.h>
+#include "math.h"
 
 
 int main(int argc, char** argv)
@@ -10,5 +11,6 @@ int main(int argc, char** argv)
     int firstNumber = 10;
     int secondNumber = 5;
 
-    printf("First number plus second number equals %d\n", firstNumber + secondNumber);
+    printf("First number minus second number equals %d\n",
+            Math_Subtract(firstNumber, secondNumber));
 }
